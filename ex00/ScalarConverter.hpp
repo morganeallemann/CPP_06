@@ -44,7 +44,7 @@ class   ScalarConverter{
 		/* DESTRUCTOR */
 		virtual ~ScalarConverter();
 		/* SURCHARGED OPERATOR */
-		ScalarConverter &operator=(ScalarConverter const &rhs);
+		virtual ScalarConverter &operator=(ScalarConverter const &rhs) = 0;
 		/* MEMBER FUNCTIONS */
 		static int convert(const std::string &literal);
 };
