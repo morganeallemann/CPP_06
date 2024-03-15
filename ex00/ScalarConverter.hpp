@@ -33,8 +33,8 @@ class   ScalarConverter{
 		/* FONCTIONS QUI AFFICHE LA CONVERSION */
 		static void	printC(const char c);
 		static void	printI(const int i);
-		static void	printF(const int f);
-		static void	printD(const int d);
+		static void	printF(const float f);
+		static void	printD(const double d);
 
 	public:
 		/* CONSTRUCTOR */
